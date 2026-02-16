@@ -57,9 +57,58 @@ Este documento mantiene la trazabilidad completa entre issues, pull requests, co
 - Total de Commits: 12 (4 por persona)
 - Releases: 1 (v1.0.0)
 
+## Proceso de Referencias Cruzadas Documentado
+
+### Como funciona la trazabilidad:
+
+1. **Issue -> Branch**
+   - Se crea un issue en GitHub con descripcion clara
+   - Se asigna a un responsable
+   - Se crea un branch con convencion: tipo/descripcion
+   - Ejemplo: Issue #1 -> Branch audit/auditoria-fisica
+
+2. **Branch -> Commits**
+   - Cada commit en el branch referencia el issue
+   - Formato: tipo: descripcion (#numero_issue)
+   - Ejemplo: fix: agregar seccion verificada (#1)
+   - Esto crea un link automatico entre commit e issue
+
+3. **Commits -> Pull Request**
+   - Se crea PR desde el branch hacia main
+   - En la descripcion del PR se vincula el issue: Closes #numero
+   - El PR muestra todos los commits del branch
+   - GitHub vincula automaticamente PR con issue
+
+4. **Pull Request -> Merge**
+   - El PR es revisado por al menos 1 compañero
+   - Se aprueba el PR
+   - Se hace merge a main
+   - El issue se cierra automaticamente al hacer merge
+
+5. **Main -> Release**
+   - Se crea tag desde main: git tag -a v1.0.0
+   - Se crea release en GitHub desde el tag
+   - En release notes se referencian issues y PRs
+   - Release contiene todos los cambios mergeados
+
+### Beneficios de la Trazabilidad:
+
+- Se puede rastrear cada cambio desde el requisito inicial
+- Se tiene historial completo de decisiones
+- Se facilita la auditoria y revision
+- Se mejora la comunicacion del equipo
+- Se documenta el proceso automaticamente
+
+### Herramientas de GitHub que ayudan:
+
+- Referencias automaticas con #numero
+- Closes/Fixes para cerrar issues
+- Timeline de issues muestra commits y PRs
+- Grafo de branches visualiza flujo
+- Release notes pueden auto-generarse
+
 ## Actualizacion
 
-Este documento se actualiza conforme se completan los pasos de la auditoria.
-
-**Ultima actualizacion:** [Fecha pendiente]  
+**Ultima actualizacion:** 16 de febrero de 2026
 **Actualizado por:** Gestor de Trazabilidad
+**Estado:** Proceso documentado y tabla actualizada con datos reales
