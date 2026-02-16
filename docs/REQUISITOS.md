@@ -18,7 +18,7 @@
 
 ### Estado
 - [ ] Pendiente de validacion
-- [ ] En validacion
+- [X] En validacion
 - [ ] Validado
 
 ## Requisito Funcional 2: Estructura de Componentes
