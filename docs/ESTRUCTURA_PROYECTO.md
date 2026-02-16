@@ -39,15 +39,21 @@ auditoria_configuracion/
 ## Elementos de Configuracion (Configuration Items)
 
 ### 1. Archivos de Configuracion
-- `package.json`: Dependencias y scripts
-- `angular.json`: Configuracion de Angular CLI
-- `tsconfig.*.json`: Configuracion de TypeScript
-- `.env.example`: Variables de entorno
+- `package.json`: Dependencias y scripts npm
+- `angular.json`: Configuracion de Angular CLI y build
+- `tsconfig.*.json`: Configuracion de TypeScript (app, spec, base)
+- `.env.example`: Plantilla de variables de entorno
+- `.editorconfig`: Configuracion de editor de codigo
+- `.gitignore`: Exclusiones de control de versiones
 
-### 2. Documentacion
-- `README.md`: Documentacion principal
-- `LICENSE`: Licencia MIT
-- `CHECKLIST_AUDITORIA.md`: Controles de calidad
+### 2. Documentacion Completa
+- `README.md`: Documentacion principal del proyecto
+- `LICENSE`: Licencia MIT del software
+- `CHECKLIST_AUDITORIA.md`: Controles de calidad y proceso
+- `GUIA_PASO_A_PASO.md`: Guia detallada de implementacion
+- `INSTRUCCIONES_COMPLETAS.md`: Instrucciones paso a paso
+- `RESUMEN_VISUAL.md`: Diagrama de flujo del proceso
+- `INICIO_RAPIDO.md`: Guia de inicio rapido
 - `docs/`: Documentacion adicional
 
 ### 3. Codigo Fuente
