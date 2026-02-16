@@ -30,6 +30,28 @@ Tipos permitidos:
 
 Ejemplo: `fix: agregar estructura de directorios faltante (#1)`
 
+#### Ejemplos de Commits Validos
+```bash
+fix: agregar seccion de elementos verificados en README (#1)
+fix: completar documentacion de estructura del proyecto (#1)
+fix: agregar comentarios explicativos en .env.example (#1)
+fix: marcar items verificados en checklist de auditoria (#1)
+fix: iniciar validacion de requisito RF-001 (#2)
+fix: capturar evidencia de aplicacion ejecutandose (#2)
+fix: actualizar criterios de aceptacion validados (#2)
+fix: completar validacion funcional de RF-001 (#2)
+fix: agregar ejemplos de commits en checklist (#3)
+fix: mejorar checklist en template de PR (#3)
+fix: actualizar tabla de trazabilidad con datos reales (#3)
+fix: documentar proceso completo de trazabilidad (#3)
+```
+
+Todos los commits deben:
+- Comenzar con el tipo en minusculas
+- Tener descripcion clara y concisa
+- Incluir referencia al issue entre parentesis
+- No exceder 72 caracteres en el titulo
+
 ### 4. Convencion de Nombres de Branch
 - `feature/descripcion-corta`: Para nuevas funcionalidades
 - `audit/descripcion-corta`: Para tareas de auditoria

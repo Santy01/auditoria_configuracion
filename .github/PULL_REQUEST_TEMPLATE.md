@@ -20,11 +20,21 @@ Describe brevemente los cambios realizados:
 
 ## Checklist de Revision
 - [ ] El codigo sigue las convenciones del proyecto
-- [ ] Los commits tienen referencias al issue
+- [ ] Los commits tienen referencias al issue (formato: tipo: descripcion (#numero))
+- [ ] Todos los commits siguen la convencion de mensajes
 - [ ] La documentacion esta actualizada
-- [ ] No hay archivos sensibles (secrets, .env)
-- [ ] Los cambios son consistentes
-- [ ] He revisado mi propio codigo
+- [ ] No hay archivos sensibles (secrets, .env con datos reales)
+- [ ] Los cambios son consistentes con el objetivo del issue
+- [ ] He revisado mi propio codigo antes de solicitar revision
+- [ ] Los tests pasan correctamente (si aplica)
+- [ ] El branch esta actualizado con main
+- [ ] No hay conflictos de merge
+
+## Verificacion de Trazabilidad
+- [ ] Issue vinculado correctamente (Closes #numero)
+- [ ] Branch sigue convencion de nombres
+- [ ] Commits referencian el issue
+- [ ] Evidencias adjuntas (si aplica)
 
 ## Revisor Asignado
 @(usuario del revisor)
